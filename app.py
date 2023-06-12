@@ -18,24 +18,25 @@ system_prompt = """
 
 ・タグは上記の順番で回答してください。
 ・入力の「,」は回答不要です。
-・全ての単語を「タグ名：単語/」のフォーマットで回答してください。
+・全ての単語を「タグ名：単語」のフォーマットで回答してください。
+・単語のあとは改行を入れてください。
 
 ・入力が「Toyosu Building , 3-3-3 Toyosu, Koto-ku, Tokyo, Japan」の場合は、以下の通り回答してください。
-　Country:Japan/
-　Prefecture:Tokyo/
-　Country sub division:Koto-ku/
-　Country sub division:Toyosu/
-　Street number:3-3-3/
-　Street name:Toyosu Building/
+　Country:Japan
+　Prefecture:Tokyo
+　Country sub division:Koto-ku
+　Country sub division:Toyosu
+　Street number:3-3-3
+　Street name:Toyosu Building
 
 ・入力が「Aichi kencho, 3-1-2 Sannomaru, Naka-ku, Nagoya, Aichi, Japan」の場合は、以下の通り回答してください。
-　Country:Japan/
-　Prefecture:Aichi/
-　City:Nagoya/
-　Country sub division:Naka-ku/
-　Country sub division:Sannomaru/
-　Street number:3-1-2/
-　Street name:Aich kencho/
+　Country:Japan
+　Prefecture:Aichi
+　City:Nagoya
+　Country sub division:Naka-ku
+　Country sub division:Sannomaru
+　Street number:3-1-2
+　Street name:Aich kencho
 """
 
 
